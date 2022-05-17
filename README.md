@@ -39,12 +39,13 @@ Second to this, campaigns starting in February and August have decent rates of s
 
 Within my **Outcomes Based on Goals** analysis, I analyzed the total number of successful, failed, and cancelled projects, in terms of overall count, as well as percentage. These totals and percentages were categorized by a goal range starting at *Less than 1000* all the way up to *50000 or More*. 
 In this analysis, I utilized the **CountIf** function in Excel to categorize the total counts within the three categories of outcomes:
-	-Number of Successful Campaigns
-	-Number Failed Campaigns; and
-	-Number Cancelled Campaigns
+
+	1. Number of Successful Campaigns
+	2. Number Failed Campaigns; and
+	3. Number Cancelled Campaigns
 
 I've included one example of my CountIf equation below. This example is based on cell B2, which is looking at the **Number of Successful Fundraising Campaigns** with a goal of **Less than 1000*.
-	-*Example:* 
+	 
 ```
 =COUNTIFS(Kickstarter!$D:$D, "<1000",Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
 ```
