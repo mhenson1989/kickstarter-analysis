@@ -44,7 +44,7 @@ In this analysis, I utilized the **CountIf** function in Excel to categorize the
 	2. Number Failed Campaigns; and
 	3. Number Cancelled Campaigns
 
-I've included one example of my CountIf equation below. This example is based on cell B2, which is looking at the **Number of Successful Fundraising Campaigns** with a goal of **Less than 1000*.
+I've included one example of my CountIf equation below. This example is based on cell B2, which is looking at the **Number of Successful Fundraising Campaigns** with a goal of *Less than 1000*.
 	 
 ```
 =COUNTIFS(Kickstarter!$D:$D, "<1000",Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
